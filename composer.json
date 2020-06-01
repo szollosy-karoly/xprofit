@@ -1,0 +1,19 @@
+{
+  "name": "xprofit/pk_rendeles",
+  "description": "Ez az X-profit Rendelés package",
+  "authors": [
+      {
+          "name": "Szöllősy Károly",
+          "email": "szollosy.karoly@x-profit.hu"
+      }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+      "psr-0": {
+          "Xprofit\\PkCikk\\": "src/"
+      }
+  },
+  "minimum-stability": "dev"
+}
